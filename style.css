@@ -1,0 +1,184 @@
+@font-face {
+    font-family: "Gotham Rounded Bold";
+    src: url("assets/fonts/gotham-rounded/GothamRounded-Bold.otf") format("otf"),
+    url("assets/fonts/gotham-rounded/GothamRounded-Bold.woff") format("woff"),
+    url("assets/fonts/gotham-rounded/GothamRounded-Bold.woff2") format("woff2"),
+    url("assets/fonts/gotham-rounded/GothamRoundedBold_21016.ttf") format("ttf");
+    font-weight: 900;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gotham Rounded Medium";
+    src: url("assets/fonts/gotham-rounded/GothamRounded-Medium.otf") format("otf"),
+    url("assets/fonts/gotham-rounded/GothamRounded-Medium.woff") format("woff"),
+    url("assets/fonts/gotham-rounded/GothamRounded-Medium.woff2") format("woff2"),
+    url("assets/fonts/gotham-rounded/GothamRoundedMedium_21022.ttf") format("ttf");
+    font-weight: 600;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    font-family: "Gotham Rounded Bold", serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+h1, h2 {
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.list {
+}
+.section_text {
+    font-family: "Gotham Rounded Medium", serif;
+    /*color: rgb(55, 55, 55);*/
+    color: #6a6a6a;
+}
+.text-m {
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+}
+.section__content {
+    width: 1280px;
+    margin: 0 auto;
+}
+.section_title {
+    text-transform: uppercase;
+    color: rgb(22, 160, 133);
+}
+
+
+/* ===== HEADER =====*/
+.header {
+    top: 0;
+}
+.header_list {
+    margin: 0 auto;
+    padding: 70px 0 0;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 50px;
+    font-size: 14px;
+}
+.list_item {
+    height: 20px;
+    padding: 0 4px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.list_item:hover {
+    border-bottom: 5px dotted rgb(22, 160, 133);
+    transition: border-bottom-color .3s linear, border-bottom-width .1s linear;
+}
+.list_item:hover .header_link {
+    color: rgb(22, 160, 133);
+    transition: color .3s linear;
+}
+.header_link {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    height: 40px;
+}
+.logo_header {
+    margin-top: 20px;
+    /*margin: -20px;*/
+}
+
+/* ===== SECTION FIRST =====*/
+.section__first {
+    background: bottom / cover no-repeat url("assets/images/bg-header.png");
+    height: 750px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 4px;
+}
+.section__content-first {
+    margin-top: 200px;
+    text-align: center;
+}
+.section_title-l {
+    font-size: 32px;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+}
+.list__social-media {
+    padding: 0;
+    width: 200px;
+    margin: 240px auto 0;
+    display: flex;
+    justify-content: center;
+}
+.link-social {
+    padding: 0 10px;
+}
+
+/* ===== SECTION SECOND =====*/
+.section__second {
+    height: 500px;
+    margin: 0;
+    background: rgb(245, 246, 247);
+}
+.section__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.section_about {
+    width: 450px;
+    /*text-align: left;*/
+}
+.section_text {
+    padding: 50px 0 0;
+    line-height: 2rem;
+}
+.section_img {
+    width: 450px;
+    /*text-align: right;*/
+}
+
+
+
+
+/* ===== BTN & BTN-vars ===== */
+.btn {
+    margin-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    background: rgb(22, 160, 133);
+    border: 1px solid rgb(22, 160, 133);
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 14px 110px 10px rgba(22, 160, 133, 0.4);
+    transition: background-color .3s linear, box-shadow .5s linear;
+}
+.btn:hover {
+    color: rgb(22, 160, 133);
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(22, 160, 133);
+    box-shadow: 0 14px 110px 10px rgba(255, 255, 255, 0.3);
+}
+
+.btn-m {
+    width: 170px;
+    height: 50px;
+}
+
+
+/* ===== FOOTER ===== */
+.footer {
+    margin: 0 auto;
+    width: 1280px;
+    height: 130px;
+}
+.list_footer {
+    color: rgb(0, 0, 0);
+}
