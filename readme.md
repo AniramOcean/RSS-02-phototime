@@ -5,4 +5,4 @@
 <div>Task's <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-1/phototime/phototime-ru.md">description</a>
 </div>
 
-GithubPages <a href="">link</a>
+GithubPages <a href="https://aniramocean.github.io/RSS-02-phototime/">link</a>
